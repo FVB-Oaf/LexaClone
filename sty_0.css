@@ -1,0 +1,104 @@
+body{
+    background-color: #EEEEEE;
+}
+button:enabled{
+    background-color: #EEEEEE;
+    border: 4px solid #444444;
+}
+button:hover{
+    background-color: #CCCCFF;
+    border: 4px solid #7733FF;
+}
+button:disabled{
+    background-color: #BBBBBB;
+    border: 4px solid #444444;
+}
+.c_button_1{
+    height: 100px;
+    width: 100px;
+    font-size: xxx-large;
+}
+.c_button_1_image{
+    height: 100px;
+    width: 100px;
+    font-size: xxx-large;
+    margin: 0px 0px;
+    text-align: center;
+    padding: 0px;
+}
+.c_button_2{
+    height: 100px;
+    width: 100%;
+    font-size: xxx-large;
+}
+.c_button_3{
+    height: 35px;
+    width: 100%;
+}
+.c_4XLF{
+    font-size: 1em;
+}
+.c_xxxlf{
+    font-size: xxx-large;
+}
+.c_lf{
+    font-size: large;
+}
+.c_xlf{
+    font-size: x-large;
+}
+.c_xxlf{
+    font-size: xx-large;
+}
+.c_16px{
+    font-size: 16px;
+}
+.c_void{
+    color: #EEEEEE;
+}
+.c_table{
+    border: 2px solid #444444;
+    border-collapse: collapse;
+    padding: 8px;
+    vertical-align: top;
+}
+.c_table2{
+    border: 1px solid #000000;
+    padding: 8px;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+span.rotated_n_90{
+    font-size: 1em;
+    font-family: Helvetica, Calibri, Arial, sans-serif;
+    display: block;
+    text-align: center;
+    -webkit-transform: rotate( -90deg );
+    -moz-transform: rotate( -90deg );
+    -o-transform: rotate( -90deg );
+    -ms-transform: rotate( -90deg );
+    transform: rotate( -90deg );
+}
+span.rotated_p_90{
+    font-size:1em;
+    font-family:Helvetica,Calibri,Arial,sans-serif;
+    display:block;
+    text-align:center;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
+span.upDown{
+    font-family:Helvetica,Calibri,Arial,sans-serif;
+    display:block;-webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
