@@ -1,4 +1,4 @@
-const version="24-W17-D5/C";
+const version="24-W17-D5/d";
 let found_words=[];
 let current_word=[];
 let letters=[];
