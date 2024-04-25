@@ -1,7 +1,7 @@
 {
     "mistakes_limit":0,
     "mistakes_game_mode":0,
-    "lang":1,
+    "lang":"english",
     "threshold_low":1,
     "show_unfound_words":1
 }
