@@ -8,7 +8,7 @@ let amt_of_words = 0;
 let mistakes_count = 0;
 let mistakes_limit = 1;
 let mistakes_mode = false;
-let lang = "english";
+let lang = "en";
 let currently_open_info_box = "None";
 let findable_words = [ ];
 let findable_words_length = 0;
@@ -34,7 +34,7 @@ const tables = [
     `${ tc[ 0 ] }<span dir = "rtl">طول كلمة</span>${ tc[ 1 ] }<span dir = "rtl">نقاط</span>${ tc[ 2 ] }`
 ];
 let text = { //«»
-    "english":{
+    "en":{
         language_name: "English",
         button: {
             submit: "⇑",
@@ -105,7 +105,7 @@ let text = { //«»
             quit_confirm: "Are you sure you want to quit?"
         }
     },//English
-    "spanish":{
+    "es":{
         language_code:1,
         language_name:"Español",
         button:{
@@ -178,7 +178,7 @@ let text = { //«»
             quit_confirm:"¿Estás seguro de que quieres dejar de fumar?"
         }
     },//Spanish
-    "french":{
+    "fr":{
         language_code:2,
         language_name:"Français",
         button:{
@@ -251,7 +251,7 @@ let text = { //«»
             quit_confirm:"Êtes-vous sûr de vouloir quitter?"
         }
     },//French
-    "german":{
+    "de":{
         language_code:3,
         language_name:"Deutsch",
         button:{
@@ -324,7 +324,7 @@ let text = { //«»
             quit_confirm:"Sind Sie sicher, dass Sie aufhören wollen?"
         }
     },//German
-    "greek":{
+    "el":{
         language_code:4,
         language_name:"Ελληνικά",
         button:{
@@ -397,7 +397,7 @@ let text = { //«»
             quit_confirm:"Είσαι σίγουρος ότι θέλεις να παραιτηθείς?"
         }
     },//Greek
-    "hungarian":{
+    "hu":{
         language_code:5,
         language_name:"Magyar",
         button:{
@@ -470,7 +470,7 @@ let text = { //«»
             quit_confirm:"Biztosan ki szeretne lépni?"
         }
     },//Hungarian
-    "russian":{
+    "ru":{
         language_code:6,
         language_name:"Русский",
         button:{
@@ -543,7 +543,7 @@ let text = { //«»
             quit_confirm:"Вы уверены, что хотите выйти?"
         }
     },//Russian
-    "simplified_chinese":{
+    "zh":{
         language_code:7,
         language_name:"简体中文",
         button:{
@@ -616,7 +616,7 @@ let text = { //«»
             quit_confirm:"你确定你要退出吗?"
         }
     },//Chinese (Simplified)
-    "japanese":{
+    "ja":{
         language_code: 8,
         language_name:"日本語",
         button:{
@@ -689,7 +689,7 @@ let text = { //«»
             quit_confirm:"本当にやめる気?"
         }
     },//Japanese
-    "korean":{
+    "ko":{
         language_code: 9,
         language_name:"한국인",
         button:{
@@ -762,7 +762,7 @@ let text = { //«»
             quit_confirm:"Are you sure you want to quit?"
         }
     },//Korean
-    "hindi":{
+    "hi":{
         language_code: 10,
         language_name:"English",
         button:{
@@ -835,7 +835,7 @@ let text = { //«»
             quit_confirm:"Are you sure you want to quit?"
         }
     },//Hindi
-    "arabic":{
+    "ar":{
         language_code:11,
         language_name:"English",
         button:{
@@ -1230,7 +1230,7 @@ function dn(n){//allows for support of chinese/other numerals
     //https://stackoverflow.com/questions/46534376/javascript-convert-arabic-numerals-to-chinese-characters
     //https://www.chinese-numbers.com/tutorial-15_fractions.html
     //https://stackoverflow.com/questions/7881319/is-there-ay-js-function-to-find-value-before-and-after-decimal-point
-    if(lang=='simplified_chinese'){
+    if(lang=='zh'){
         if(Number.isInteger(n)){
             return df_internal(parseInt(n));
         }else{
