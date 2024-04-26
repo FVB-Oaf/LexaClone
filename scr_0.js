@@ -1,4 +1,4 @@
-const version="24-W17-D5/e";
+const version="1.0.0";
 let found_words = [ ];
 let current_word = [ ];
 let letters = [ ];
@@ -15,7 +15,7 @@ let findable_words_length = 0;
 let score = 0;
 let locked_buttons = [ ];
 let threshold_low = 50;
-let show_unfound_words = true;
+let show_unfound_words = false;
 const tc = [
     "<table class = \"c_table\" width = 250px><tr class = \"c_table2\"><td align = \"center\" class = \"c_table2\" width = 125px>", "</td><td align = \"center\" class = \"c_table2\" width = 125px>", "</td></tr><tr class = \"c_table2\"><td align = \"center\" class = \"c_table2\">4</td><td align = \"center\" class = \"c_table2\">1</td></tr><tr class = \"c_table2\"><td align = \"center\" class = \"c_table2\">5</td><td align = \"center\" class = \"c_table2\">2</td></tr><tr class = \"c_table2\"><td align = \"center\" class = \"c_table2\">6</td><td align = \"center\" class = \"c_table2\">4</td></tr><tr class = \"c_table2\"><td align = \"center\" class = \"c_table2\">7</td><td align = \"center\" class = \"c_table2\">6</td></tr><tr class = \"c_table2\"><td align = \"center\" class = \"c_table2\">8</td><td align = \"center\" class = \"c_table2\">10</td></tr><tr class = \"c_table2\"><td align = \"center\" class = \"c_table2\">9</td><td align = \"center\" class = \"c_table2\">16</td></tr></table>"
 ];
@@ -89,7 +89,7 @@ let text = { //«»
                 hi:"Hindi",
                 ar:"Arabic"
             },
-            text_2: `.<br><br>${tables[0]}<br>And keep in mind that this is a work-in-progress. ☺<br><button class = "c_button_3" onclick = "f_default_lang_help_screen( )">How can I set English as the default language?</button>`,
+            text_2: `.<br><br>${tables[0]}<br>And keep in mind that this is a work-in-progress. ☺`,
             supported_languages_seperator: ", "
         },
         legal: {
