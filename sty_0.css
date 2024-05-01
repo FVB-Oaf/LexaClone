@@ -35,6 +35,11 @@ button:disabled{
     height: 35px;
     width: 100%;
 }
+.c_button_4{
+    height: 100px;
+    width: 50%;
+    font-size: xxx-large;
+}
 .c_4XLF{
     font-size: 1em;
 }

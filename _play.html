@@ -1,4 +1,4 @@
-<!--latest version: 1.0.0-->
+<!--latest version: 1.0 pre-release 1-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -9,18 +9,13 @@
         <link href="sty_0.css"rel="stylesheet"/>
     </head>
     <body>
+        <p id="i_debug"></p>
         <p id="i_wait">Loading... Pleae wait</p>
         <p id="i_info_page"></p>
-        <p id="i_msg"class="c_xxlf">
-            <span class="c_void"></span>
-        </p>
-        <table class="c_table" height=75%>
+        <p id="i_msg"class="c_xxlf"><span class="c_void"></span></p>
+        <table class="c_table"height=75%>
             <tr>
-                <td class="c_table"width=64%>
-                    <p id="i_found_words"class="c_xlf">
-                        <span class="c_void"></span>
-                    </p>
-                </td>
+                <td class="c_table"width=64%><p id="i_found_words"class="c_xlf"><span class="c_void"></span></p></td>
                 <td class="c_table"width=36%>
                     <span class="c_lf">
                         <span id="i_mistakes"></span><br>
@@ -33,7 +28,7 @@
                             <td><span id="i_letter_1"></span></td>
                             <td><span id="i_letter_2"></span></td>
                             <td><span id="i_button_0"></span></td>
-                            <td><button class="c_button_1"onclick="f_how_to_play( )"><span id="i_button_1"></span></button></td>
+                            <td><button class="c_button_1"onclick="f_how_to_play()"><span id="i_button_1"></span></button></td>
                         </tr>
                         <tr>
                             <td><span id="i_letter_3"></span></td>
@@ -55,5 +50,5 @@
         </table>
         <b><span id="i_footer"></span></b>
     </body>
-    <script src="scr_0.js"></script>
+    <script src="./scr_0.js"></script>
 </html>
